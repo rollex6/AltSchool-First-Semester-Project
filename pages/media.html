@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me - Media Showcase</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/css/media_styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="form.html">Application Form</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="media.html">Media</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="intro">
+        <p>
+          Hello! I'm [Your Name], a tech enthusiast with a deep passion for
+          programming, technology leadership, and community-driven initiatives.
+          I thrive in dynamic environments where innovation meets collaboration,
+          and I constantly strive to make an impact through the skills I have
+          developed.
+        </p>
+      </section>
+
+      <section class="media-section">
+        <!-- Responsive Image using picture element -->
+        <h2>A Visual Glimpse Into My Journey</h2>
+        <picture>
+          <source
+            srcset="images/profile-large.jpg"
+            media="(min-width: 1024px)"
+          />
+          <source
+            srcset="images/profile-medium.jpg"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="images/profile-small.jpg"
+            media="(max-width: 767px)"
+          />
+          <img
+            src="images/profile-default.jpg"
+            alt="Profile Picture"
+            style="width: 100%"
+          />
+        </picture>
+
+        <!-- Embedded Iframe -->
+        <h2>Watcch My Sample Embededd Iframe</h2>
+        <div class="iframe-container">
+          <iframe
+            src="https://www.youtube.com/embed/SerNghTEu8U"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <!-- Audio Element -->
+        <h2>Listen to My Sample Audio Element</h2>
+        <audio controls>
+          <source src="../assets/altaudio.m4a" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+
+        <!-- Video Element -->
+        <h2>Watch My Sample Video Element</h2>
+        <video controls poster="images/video-thumbnail.jpg">
+          <source src="../assets/altvid.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Onyekachukwu Rawlings Okigbo</p>
+    </footer>
+  </body>
+</html>
