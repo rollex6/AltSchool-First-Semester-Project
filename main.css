@@ -13,20 +13,19 @@ body {
     position: relative;
 }
 
-/* Header Styles */
+/* Styling my header */
 header {
-    background-color: #333;
+    background-color: #4e68ff;
     padding: 10px 0;
     color: #fff;
     text-align: center;
 }
 
-/* Footer Styles */
+/* Styling my footer */
 footer {
-    background-color: #333;
+    background-color: #4e68ff;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
 }
 
 nav ul {
@@ -52,7 +51,7 @@ main {
     min-height: 90vh;
 }
 
-/* Responsive Design */
+/* Watch how I make my design responsive*/
 @media (max-width: 768px) {
     nav ul li {
         display: block;
